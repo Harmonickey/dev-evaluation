@@ -1,0 +1,49 @@
+<div class="jumbotron">
+  <h1>Developer Evaluation</h1>
+  <p class="lead">Calculate stuff!</p>
+  <h5>Instructions</h5>
+  <ul>
+    <li>Enter a string of number into a text box, delimited by ","</li>
+    <ul>
+      <li>Example: 1, 2, 3, 4, 5</li>
+    </ul>
+    <li>When user hits Enter key or hits the "Calculate" button</li>
+    <ul>
+      <li>As per the definitions at <a href="https://www.mathisfun.com/data/central-measures.html">https://www.mathisfun.com/data/central-measures.html</a>, calculate the following using all the numbers</li>
+      <ul>
+        <li>Average/Mean</li>
+        <li>Median</li>
+        <li>Mode</li>
+      </ul>
+      <li>The calculation must be done on the backend service, so the web project must call the service project to get the answers.</li>
+      <li>Display the results somewhere on the page</li>
+    </ul>
+    <li>Create front end unit tests and backend unit tests.  Front end unit tests should be runnable and passable by running 'ng test'.  Backend unit tests should be runnable by running 'dotnet test' on the .UnitTests.csproj project.</li>
+    <li>Recommended to use Karma/Jasmine for the frontend unit tests (already installed libraries to web project).</li>
+    <li>Recommended to use NUnit for the backend unit tests (already installed NuGet packages to service project).</li>
+  </ul>
+  <h5>Project Setup</h5>
+  <ul>
+    <li>Using Visual Studio 2017 and .NET Core 2.1</li>
+    <li>Using Angular 6 in VSCode</li>
+    <li>Open the web solution in VSCode and the service solution in Visual Studio 2017</li>
+    <li>Restore NuGet packages in the service project and run 'npm install' in the web project</li>
+    <li>Run in Debug for the service application (should open a browser window)</li>
+    <li>Run the web application by executing 'npm start'</li>
+  </ul>
+  <h5>Extra Points</h5>
+  <ul>
+    <li>Add a table (or how ever many you think you'll need) to the database project and connect up the table to the service project so that when the user calculates something it logs important infomration like the timestamp when they clicked the button, the inputs, and the output to the table(s).  If you do this then we should be able to deploy/publish the database .dacpac to a SQL server for when we test it out.</li>
+    <li>Enhance the user experience in some way.</li>
+    <li>Add some routes to the web project which directs the user to different types of functionality in the app.</li>
+    <li>Add styles and make the website responsive</li>
+    <li>Add some sort of documentation to the web project and/or the service project (like Swagger).</li>
+    <li>Add anything else extra that you think might add to the application in a positive way!</li>
+  </ul>
+</div>
+
+<div class="row">
+  <div class="col-12">
+    You can put your code in this div/area to start, or you can reorganize this project and put your code somewhere else.
+  </div>
+</div>
